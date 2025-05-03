@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes in Javascript</title>
+</head>
+<body>
+    <p id="student1"></p>
+    <p id="student2"></p>
+    <script>
+//creating a class
+  class student{
+    constructor(name,year){
+        this.name= name;
+         this.year = year;
+
+    }
+  
+//creating age for class student
+age(){
+
+
+let date= new Date();
+return date.getFullYear()-this.year;
+
+
+}
+
+  }
+
+
+  student1 - new student("Nivaan",2015)
+document.getElementById("student1").innerHTML="My name is"+ student.name +"I am born in the year"+student1.year+"and my age is"+student. age();
+
+    student1 - new student("ayaan", 2014)
+    document.getElementById("student2").innerHTML = "My name is" + student.name + "I am born in the year" + student2.year + "and my age is" + student.age();
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

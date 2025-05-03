@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="details"></p>
+    <script>
+class Car {
+    constructor(brand){
+        this . carname=brand;
+    }
+    presant(){
+        return "I hav a "+this.carname+"car ."
+}
+
+}
+class Model extends Car{
+    constructor(brand,model){
+        super(brand)
+        this.model=model
+        
+    }
+show(){
+    return this.presant()+"I have model"+this. model
+}
+
+}
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
